@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Héritage Auto Club</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f0f10;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    min-height:100vh;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:100vh;
+    padding:40px 20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.logo{
+    font-family:'Playfair Display',serif;
+    font-size:4rem;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+.subtitle{
+    color:#c9b37e;
+    font-size:1rem;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    margin-bottom:40px;
+}
+
+.description{
+    font-size:1.15rem;
+    line-height:1.9;
+    max-width:760px;
+    color:#d7d7d7;
+    margin-bottom:50px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.btn{
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:50px;
+    transition:0.3s;
+    font-weight:500;
+}
+
+.btn-primary{
+    background:#c9b37e;
+    color:#111;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+}
+
+.btn-secondary{
+    border:1px solid #c9b37e;
+    color:#c9b37e;
+}
+
+.btn-secondary:hover{
+    background:#c9b37e;
+    color:#111;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px;
+    color:#888;
+    font-size:0.9rem;
+}
+
+.footer a{
+    color:#c9b37e;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.logo{
+    font-size:2.8rem;
+}
+
+.description{
+    font-size:1rem;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <h1 class="logo">Héritage Auto Club</h1>
+
+    <p class="subtitle">
+        Club privé • Véhicules d'exception • Confiance
+    </p>
+
+    <p class="description">
+        Héritage Auto Club est une plateforme privée dédiée aux passionnés de voitures de collection et de véhicules d'exception.
+        Notre ambition est de permettre à des propriétaires sélectionnés d'échanger temporairement leurs automobiles dans un environnement sécurisé, exclusif et fondé sur la confiance.
+        <br><br>
+        Plus qu'un simple service, Héritage Auto Club est un cercle privé réunissant des passionnés autour du patrimoine automobile et de l'expérience de conduite.
+    </p>
+
+    <div class="buttons">
+
+        <a href="https://heritage-auto-club-cf5b30a4.base44.app" class="btn btn-primary">
+            Découvrir la plateforme
+        </a>
+
+        <a href="https://www.instagram.com/heritage_auto_club/" class="btn btn-secondary">
+            Instagram
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    Contact :
+    <a href="mailto:contact@heritageautoclub.fr">
+        contact@heritageautoclub.fr
+    </a>
+
+    <br><br>
+
+    Projet actuellement en phase de développement.
+
+</footer>
+
+</body>
+</html>
